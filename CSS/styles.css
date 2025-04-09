@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-font-face {
-    font-family: 'Goth Titan';
-    src: url('../cloister_black/CloisterBlack.ttf');
-}   
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
 
 
@@ -27,7 +24,7 @@ h1 {
         color: #fff;
         text-align: center;
         font-size: 50px;
-        font-family: "Cloister Black",;
+        font-family: 'Cinzel' ;
         margin-top: 20px;
 }
 
@@ -144,6 +141,7 @@ h1 {
         margin-left: 500px;
         margin-right: 500px;
         padding: 40px;
+        
 }
 
 .Mensagem {
@@ -159,5 +157,35 @@ h1 {
         margin-left: 500px;
         margin-right: 500px;
         padding: 40px;
+}
+
+#vid1 {
+        border: 2px solid #000000;
+        background-color: #00000063;
+        border-radius: 10px;
+        box-shadow: #000000 0px 0px 10px;
+        padding: 40px;
+        width: 100%; 
+        height: auto; 
+        max-width: 900px; 
+        object-fit: contain; 
+        margin-left: 400px;
+        
+        
+   
+
+
+}
+
+#autor1 {
+        border: 2px solid #000000;
+        background-color: #00000063;
+        border-radius: 10px;
+        box-shadow: #000000 0px 0px 10px;
+        
+        width: 100%; 
+        height: auto; 
+        max-width: 200px; 
+        object-fit: contain;
 }
 
